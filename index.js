@@ -7,7 +7,7 @@ const { pipeline } = require('stream');
 const fetch = require('node-fetch');  // Import fetch
 
 // Initialize the bot using the token from environment variable
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf('7854726117:AAHyAOKhQjXpAHZLR8SDEi3FqIGvInkYbz8');
 
 // On start message
 const onStartMsg = "Salom! Men sizga qo'shiq topib berishim mumkin. Qo'shiq nomini yozing...";
